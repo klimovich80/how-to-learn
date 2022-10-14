@@ -96,12 +96,10 @@
         display: flex;
         width: 80%;
         justify-content: space-between;
-        border: 1px solid blue;
     }
 
     .two-columns__brief {
         width: 175px;
-        border: 1px dotted #000;
         line-height: 1.2;
         font-size: 18px;
         font-weight: normal;
@@ -112,7 +110,6 @@
     .two-columns__main-text {
         width: 80%;
         min-width: 784px;
-        border: 1px dotted #000;
     }
 
     .two-columns__paragraph {
