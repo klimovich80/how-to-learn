@@ -42,6 +42,7 @@
         font-size: 102px;
         font-style: 600;
         color: #000;
+        z-index: 2;
     }
 
     .header__subtitle {
@@ -53,6 +54,7 @@
         font-size: 18px;
         font-style: normal;
         color: #000;
+        z-index: 2;
     }
 
     .header__main-illustration {
