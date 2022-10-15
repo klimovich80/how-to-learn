@@ -320,4 +320,56 @@
     .footer__author {
         border: 1px solid blue;
         margin: 18px 0;
+        line-height: 25px;
+        font-size: 18px;
+        font-weight: normal;
     }
+
+    .footer__column_content_info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__column-heading {
+        margin: 0 0 20px;
+        line-height: 30px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .footer__column-links {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 16px;
+    }
+
+    .footer__column_content_social {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__column-link {
+        color: white;
+        text-decoration: none;
+        line-height: 30px;
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    .footer__social-icon {
+        margin: 0 10px 0 0;
+    }
+    /* needs to check:
+    1. margins and paddings on elements inpsection in browser
+    2. BEM
+    3.Positions (absolute/relative)
+    4. Sizes
+    5. Look
+    6. HTML errors
+    7. CSS errors
+    8. Refactoring
+    9. BEM validation
+    10. HTML Validation
+    11. send for review
+    12. wait)))
+    */
