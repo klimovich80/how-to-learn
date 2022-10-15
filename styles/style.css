@@ -12,6 +12,7 @@
     div {
         border: 1px solid red;
     }
+    /*верстка плывет при сжатии. Возможно, нужно проверить относительные/абсолютные положения */
 
     .header {
         display: flex;
@@ -183,3 +184,43 @@
         margin-top: 20px;
     }
     /*feynman*/
+
+    .feynman {
+        position: relative;
+        height: 890px;
+        margin: 0;
+        border: 2px solid blue;
+        background: #f2f2f2 url(../images/feynman.png) left bottom no-repeat;
+    }
+    /*!как задать фиксированные размеры изображению которое было использовано в бэкграунде?
+    А зачем?)) размеры оригинала соответсвуют брифу)))*/
+
+    .feynman__title {
+        border: 1px solid red;
+        width: 648px;
+        text-align: center;
+        margin: 100px auto 70px;
+        line-height: 1.15;
+        font-size: 120px;
+        font-weight: 600;
+    }
+
+    .feynman__subtitle {
+        border: 1px solid red;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 51px;
+        font-size: 36px;
+        font-weight: normal;
+    }
+
+    .feynman__link {
+        border: 1px solid red;
+        position: absolute;
+        right: 40px;
+        top: 50%;
+        line-height: 51px;
+        font-size: 36px;
+        font-weight: normal;
+        text-decoration: none;
+    }
