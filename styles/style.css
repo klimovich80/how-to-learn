@@ -220,9 +220,45 @@
     }
     /*kaufman*/
 
+    .kaufman {
+        background: #1f1f1f;
+        position: relative;
+        border: 1px solid green;
+    }
+
+    .section__title_theme_dark {
+        color: white;
+        width: 60%;
+        border: 1px solid red;
+        margin: 90px auto 20px;
+        text-align: center;
+    }
+
+    .section__subtitle_theme_dark {
+        color: white;
+        width: 60%;
+        border: 1px solid red;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .table_theme_dark {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto 90px;
+        justify-content: space-between;
+    }
+
     .table__cell_theme_dark {
         width: 200px;
         color: white;
         margin-right: 0;
         margin-top: 80px;
+    }
+
+    .kaufman-triangle {
+        position: absolute;
+        top: 0;
+        right: -210px;
+        overflow: hidden;
     }
