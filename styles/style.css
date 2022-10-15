@@ -20,9 +20,9 @@
         max-height: 756px;
         /* выше установили ограничения для секции */
         background: #f2f2f2;
-        border: 1px solid blue;
         justify-content: flex-start;
         align-items: center;
+        margin: 0;
     }
 
     .logo_place_header {
@@ -172,10 +172,13 @@
         line-height: 1.15;
         font-size: 24px;
         font-weight: 600;
+        margin: 0;
     }
 
     .table__text {
         line-height: 1.2;
         font-size: 18px;
         font-weight: normal;
+        margin-bottom: 0;
+        margin-top: 20px;
     }
