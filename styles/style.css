@@ -15,6 +15,7 @@
     /*верстка плывет при сжатии. Возможно, нужно проверить относительные/абсолютные положения */
 
     .header {
+        position: relative;
         display: flex;
         height: 100vh;
         min-height: 600px;
