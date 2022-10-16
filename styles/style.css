@@ -8,11 +8,20 @@
         /* выше для экранов больше 1600px отцентрировали весь контент */
         font-family: 'Helvetica Neue', Arial, sans-serif;
     }
-
-    div {
-        border: 1px solid red;
-    }
     /*верстка плывет при сжатии. Возможно, нужно проверить относительные/абсолютные положения */
+
+    .background_grey {
+        background: #f2f2f2;
+    }
+
+    .background_dark-grey {
+        background: #1f1f1f;
+    }
+
+    .logo {
+        width: 228px;
+        height: 32px;
+    }
 
     .header {
         position: relative;
@@ -21,15 +30,12 @@
         min-height: 600px;
         max-height: 756px;
         /* выше установили ограничения для секции */
-        background: #f2f2f2;
         justify-content: flex-start;
         align-items: center;
         margin: 0;
     }
 
     .logo_place_header {
-        width: 228px;
-        height: 32px;
         position: absolute;
         left: 64px;
         top: 30px;
@@ -84,7 +90,6 @@
         margin: 100px auto;
         display: flex;
         justify-content: center;
-        border: 3px dotted greenyellow;
     }
 
     .two-columns {
@@ -126,7 +131,8 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        align-items: center
+        align-items: center;
+        margin-bottom: 100px;
     }
 
     .section__title {
@@ -134,8 +140,7 @@
         font-size: 60px;
         font-weight: 600;
         width: 60%;
-        border: 1px solid red;
-        margin-top: 100px;
+        margin-top: 0;
         margin-bottom: 20px;
         text-align: center;
     }
@@ -146,7 +151,6 @@
         font-weight: normal;
         text-align: center;
         width: 60%;
-        border: 1px solid red;
         margin: 0;
     }
 
@@ -155,7 +159,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin: 0 auto 100px;
+        margin: 0 auto;
     }
 
     .table__cell {
@@ -183,17 +187,14 @@
         position: relative;
         height: 890px;
         margin: 0;
-        border: 2px solid blue;
         background: #f2f2f2 url(../images/feynman.png) left bottom no-repeat;
     }
-    /*!как задать фиксированные размеры изображению которое было использовано в бэкграунде?
-    А зачем?)) размеры оригинала соответсвуют брифу)))*/
 
     .feynman__title {
         border: 1px solid red;
         width: 648px;
         text-align: center;
-        margin: 100px auto 70px;
+        margin: 0 auto 70px;
         line-height: 1.15;
         font-size: 120px;
         font-weight: 600;
@@ -209,7 +210,6 @@
     }
 
     .feynman__link {
-        border: 1px solid red;
         position: absolute;
         right: 40px;
         top: 50%;
@@ -221,16 +221,13 @@
     /*kaufman*/
 
     .kaufman {
-        background: #1f1f1f;
         position: relative;
-        border: 1px solid green;
         overflow: hidden;
     }
 
     .section__title_theme_dark {
         color: white;
         width: 60%;
-        border: 1px solid red;
         margin: 90px auto 20px;
         text-align: center;
         line-height: 1.15;
@@ -242,7 +239,6 @@
     .section__subtitle_theme_dark {
         color: white;
         width: 60%;
-        border: 1px solid red;
         margin: 0 auto;
         text-align: center;
         line-height: 34px;
@@ -291,7 +287,6 @@
     /*footer*/
 
     .footer {
-        background: #1f1f1f;
         display: flex;
         min-height: 350px;
     }
@@ -312,13 +307,10 @@
     }
 
     .logo_place_footer {
-        width: 228px;
-        height: 32px;
         margin: 0;
     }
 
     .footer__author {
-        border: 1px solid blue;
         margin: 18px 0;
         line-height: 25px;
         font-size: 18px;
