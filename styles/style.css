@@ -74,7 +74,6 @@
         right: 0;
         z-index: 1;
     }
-    /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 
     .header__square-pic {
         height: 568px;
@@ -84,8 +83,6 @@
         top: 64px;
         right: 0;
     }
-    /* и элемента с модификатором вида ключ-значение */
-    /*descriprion*/
 
     .description {
         margin: 100px auto;
@@ -130,7 +127,6 @@
         font-size: 24px;
         font-weight: 600;
     }
-    /*digits*/
 
     .digits {
         display: flex;
@@ -189,7 +185,6 @@
         margin-bottom: 0;
         margin-top: 20px;
     }
-    /*feynman*/
 
     .feynman {
         display: flex;
@@ -225,7 +220,6 @@
         text-decoration: none;
         color: #2f80ed;
     }
-    /*kaufman*/
 
     .kaufman {
         background: #1f1f1f;
@@ -275,7 +269,6 @@
         z-index: 1;
         padding: 0;
     }
-    /*footer*/
 
     .footer {
         background: #1f1f1f;
