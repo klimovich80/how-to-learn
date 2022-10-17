@@ -9,22 +9,6 @@
         font-family: 'Helvetica Neue', Arial, sans-serif;
     }
 
-    .background_grey {
-        background: #f2f2f2;
-    }
-
-    .background_dark-grey {
-        background: #1f1f1f;
-    }
-
-    .z-index_middle {
-        z-index: 1;
-    }
-
-    .z-index_top {
-        z-index: 2;
-    }
-
     .logo {
         width: 228px;
         height: 32px;
@@ -50,7 +34,7 @@
 
     .header__title {
         margin: 0;
-        width: 730px;
+        max-width: 730px;
         position: relative;
         left: 64px;
         align-self: center;
@@ -63,7 +47,7 @@
     .header__subtitle {
         margin: 0;
         padding: 0;
-        width: 388px;
+        max-width: 388px;
         position: absolute;
         left: 64px;
         bottom: 30px;
@@ -114,7 +98,7 @@
     }
 
     .two-columns__brief {
-        width: 175px;
+        max-width: 175px;
         line-height: 1.2;
         font-size: 18px;
         font-weight: normal;
@@ -154,7 +138,7 @@
         line-height: 1.15;
         font-size: 60px;
         font-weight: 600;
-        width: 60%;
+        max-width: 60%;
         margin-top: 0;
         margin-bottom: 20px;
         text-align: center;
@@ -165,7 +149,7 @@
         font-size: 24px;
         font-weight: normal;
         text-align: center;
-        width: 60%;
+        max-width: 60%;
         margin: 0;
     }
 
@@ -202,13 +186,13 @@
         display: flex;
         flex-direction: column;
         position: relative;
-        height: 890px;
+        min-height: 890px;
         background: #f2f2f2 url(../images/feynman.png) left bottom no-repeat;
     }
 
     .feynman__title {
         text-align: center;
-        width: 648px;
+        max-width: 648px;
         margin: 100px auto 70px;
         line-height: 1.15;
         font-size: 120px;
@@ -230,6 +214,7 @@
         font-size: 36px;
         font-weight: normal;
         text-decoration: none;
+        color: #2f80ed;
     }
     /*kaufman*/
 
@@ -241,9 +226,9 @@
         align-items: center;
     }
 
-    .section__title_theme_dark {
+    .section-title_theme_dark {
         color: white;
-        width: 60%;
+        max-width: 60%;
         margin: 90px 0 20px;
         padding: 0;
         text-align: center;
@@ -252,9 +237,9 @@
         font-weight: 600;
     }
 
-    .section__subtitle_theme_dark {
+    .section-subtitle_theme_dark {
         color: white;
-        width: 60%;
+        max-width: 60%;
         margin: 0;
         padding: 0;
         text-align: center;
@@ -293,6 +278,8 @@
     }
 
     .kaufman__triangle {
+        border: 1px solid red;
+        background: url(../images/kaufman-triangle.svg)right top no-repeat;
         position: absolute;
         top: 0;
         right: -210px;
