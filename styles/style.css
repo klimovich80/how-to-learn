@@ -159,11 +159,14 @@
         flex-wrap: wrap;
         justify-content: space-between;
         margin: 0 auto;
+        padding: 0;
+        list-style-type: none;
     }
 
     .table__cell {
         width: 250px;
-        margin-top: 60px;
+        margin: 60px 0 0 0;
+        padding: 0;
     }
 
     .table__heading {
@@ -219,6 +222,7 @@
     /*kaufman*/
 
     .kaufman {
+        background: #1f1f1f;
         position: relative;
         overflow: hidden;
         display: flex;
@@ -289,6 +293,7 @@
     /*footer*/
 
     .footer {
+        background: #1f1f1f;
         display: flex;
         min-height: 350px;
     }
