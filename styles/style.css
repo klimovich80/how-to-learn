@@ -56,18 +56,6 @@
         right: 0;
     }
 
-    .description {
-        margin: 100px auto;
-        display: flex;
-        justify-content: center;
-    }
-
-    .two-columns {
-        display: flex;
-        width: 80%;
-        justify-content: space-between;
-    }
-
     .two-columns__brief {
         max-width: 175px;
         line-height: 1.2;
@@ -98,33 +86,6 @@
         line-height: 34px;
         font-size: 24px;
         font-weight: 600;
-    }
-
-    .digits {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        margin-bottom: 100px;
-    }
-
-    .section-title {
-        line-height: 1.15;
-        font-size: 60px;
-        font-weight: 600;
-        max-width: 60%;
-        margin-top: 0;
-        margin-bottom: 20px;
-        text-align: center;
-    }
-
-    .section-subtitle {
-        line-height: 34px;
-        font-size: 24px;
-        font-weight: normal;
-        text-align: center;
-        max-width: 60%;
-        margin: 0;
     }
 
     .table {
