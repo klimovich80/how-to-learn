@@ -1,31 +1,3 @@
-.section-title_theme_dark {
-  color: white;
-  margin: 90px 0 20px;
-}
-
-.section-subtitle_theme_dark {
-  color: white;
-}
-
-.table_theme_dark {
-  margin: 0 auto 90px;
-}
-
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-top: 80px;
-  z-index: 2;
-}
-
-.table__heading_theme_dark {
-  margin-top: 0;
-}
-
-.table__text_theme_dark {
-  margin-bottom: 0;
-}
-
 .kaufman__triangle {
   width: 877px;
   height: 877px;
