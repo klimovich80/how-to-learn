@@ -1,10 +1,4 @@
 
-    .logo_place_header {
-        position: absolute;
-        left: 64px;
-        top: 30px;
-    }
-
     .header__title {
         margin: 0;
         max-width: 730px;
