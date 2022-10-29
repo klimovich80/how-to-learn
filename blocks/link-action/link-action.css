@@ -1,0 +1,10 @@
+@keyframes link-action {
+  from {
+    opacity: 1;
+    color:#2f80ed;
+  }
+  to {
+    opacity: 0.5;
+    color: red;
+  }
+}
