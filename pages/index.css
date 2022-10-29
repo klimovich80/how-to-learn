@@ -1,5 +1,7 @@
 /* vendor */
 @import url(../vendor/normalize.css);
+/* section to edit (delete before review) */
+@import url(../blocks/new-section/new-section.css);
 /* page */
 @import url(../blocks/page/page.css);
 /* rotation */

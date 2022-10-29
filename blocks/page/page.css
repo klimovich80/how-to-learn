@@ -9,7 +9,7 @@
   font-family: "Helvetica Neue", Arial, sans-serif;
   /* кастомные свойства*/
   --text-color_bright: white;
-  --link-color: lightblue;
+  --link-color: #2f80ed;
   --background-color_bright: white;
   --background-color_dimmed: #f2f2f2;
   --background-color_dark: black;
