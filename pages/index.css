@@ -21,6 +21,11 @@
 @import url(../blocks/header/__square-pic/header__square-pic.css);
 /* description */
 @import url(../blocks/description/description.css);
+/* techniques */
+@import url(../blocks/techniques/techniques.css);
+/* cards */
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
 /* two-columns */
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
