@@ -71,6 +71,8 @@
 @import url(../blocks/khan/__quote/khan__quote.css);
 @import url(../blocks/khan/__quote-author/khan__quote-author.css);
 @import url(../blocks/khan/__quote-author-subline/khan__qoute-author-subline.css);
+@import url(../blocks/khan/__book-container/khan__book-container.css);
+
 /* kaufman */
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
