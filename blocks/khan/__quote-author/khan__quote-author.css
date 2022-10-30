@@ -1,3 +1,7 @@
-.khan__quote-author{
+.khan__qoute-author{
   border: 1px solid red;
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
 }

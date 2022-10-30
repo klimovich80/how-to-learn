@@ -1,3 +1,7 @@
 .khan__book-container{
   border: 1px solid red;
+  display: grid;
+  height: 608px;
+  grid-template-columns: 620px 1fr;
+  gap: 48px;
 }
