@@ -1,6 +1,9 @@
 .video__iframes{
+  list-style-type: none;
   border: 1px solid blue;
-  display: flex;
-  flex-direction: row;
   margin: 60px auto 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
