@@ -8,6 +8,7 @@
 @import url(../blocks/rotation/rotation.css);
 /* link-action */
 @import url(../blocks//link-action/link-action.css);
+@import url(../blocks/link/link.css);
 /* logo */
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/_header/logo_place_header.css);
