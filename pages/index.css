@@ -1,5 +1,7 @@
 /* vendor */
 @import url(../vendor/normalize.css);
+/* animation-rotation */
+@import url(../blocks/animation-rotation/animation-rotation.css);
 /* page */
 @import url(../blocks/page/page.css);
 /* rotation */
