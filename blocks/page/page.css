@@ -1,4 +1,12 @@
 .page {
+  /* кастомные свойства*/
+  --text-color_bright: white;
+  --text-color_dark: #000;
+  --link-color_bright: white;
+  --link-color: #2f80ed;
+  --background-color_dimmed: #f2f2f2;
+  --background-color_dark: #1f1f1f;
+  /* присваиваемые стили */
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
   /* поэтому выше установлена минимальная ширина страницы */
@@ -7,10 +15,5 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: "Helvetica Neue", Arial, sans-serif;
-  /* кастомные свойства*/
-  --text-color_bright: white;
-  --link-color_bright: white;
-  --link-color: #2f80ed;
-  --background-color_dimmed: #f2f2f2;
-  --background-color_dark: #1f1f1f;
+  color: var(--text-color_dark);
 }

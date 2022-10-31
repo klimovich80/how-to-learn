@@ -2,6 +2,6 @@
   width: 90%;
   display: flex;
   justify-content: space-between;
-  color:var(--text-color_bright);
+  color: var(--text-color_bright);
   margin: 60px auto 40px;
 }

@@ -9,6 +9,6 @@
   color: var(--link-color);
 }
 
-.feynman__link:hover{
+.feynman__link:hover {
   animation: link-action 2s ease-in-out infinite;
 }
