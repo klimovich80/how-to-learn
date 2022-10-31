@@ -1,5 +1,5 @@
 .footer {
-  background: #1f1f1f;
+  background: var(--background-color_dark);
   display: flex;
   min-height: 350px;
 }

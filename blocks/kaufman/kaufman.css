@@ -1,5 +1,5 @@
 .kaufman {
-  background: #1f1f1f;
+  background: var(--background-color_dark);
   position: relative;
   overflow: hidden;
   display: flex;
