@@ -1,7 +1,5 @@
 /* vendor */
 @import url(../vendor/normalize.css);
-/* section to edit (delete before review) */
-@import url(../blocks/new-section/new-section.css);
 /* page */
 @import url(../blocks/page/page.css);
 /* rotation */
@@ -77,6 +75,10 @@
 /* kaufman */
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
+/* resources */
+@import url(../blocks/resources/resources.css);
+@import url(../blocks/resources/__logo-zone/resorces__logo-zone.css);
+@import url(../blocks/resources/__link/resources__link.css);
 /* footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);

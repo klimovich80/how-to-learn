@@ -1,6 +1,5 @@
 .video__iframes{
   list-style-type: none;
-  border: 1px solid blue;
   margin: 60px auto -50px;
   padding: 0;
   display: grid;
