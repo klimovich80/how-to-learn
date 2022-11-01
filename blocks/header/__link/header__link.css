@@ -6,7 +6,3 @@
   font-weight: normal;
   z-index: 2;
 }
-
-.header__link:hover {
-  animation: link-action 2s ease-in-out infinite;
-}
