@@ -233,11 +233,15 @@
             alt="Полка"></a>
       </nav>
     </section>
-    <section class="contact-form">
-      <form action="#">
-<input type="text" name="client-name" id="name">
-<input type="email" name="client-email" id="email">
-<input type="submit" value="">
+    <section class="contact-us">
+      <h3 class="section-title">Еще больше материалов ?</h3>
+      <p class="section-subtitle">заполните форму ниже и получите еще больше информации.</p>
+      <form action="#" class="contact-us__form">
+        <label for="name" class="label">Имя:</label>
+        <input type="text" name="client-name" id="name" class="form-input contact-us__name" placeholder="Иванов Иван" required>
+        <label for="email" class="label">E-mail:</label>
+        <input type="email" name="client-email" id="email" class="form-input contact-us__email" placeholder="sample@sample.com" required>
+        <input type="submit" value="Получить" class="contact-us__submit">
       </form>
     </section>
   </main>

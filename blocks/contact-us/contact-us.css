@@ -1,0 +1,8 @@
+.contact-us {
+  border: 1px solid green;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background:var(--background-color_dimmed) left bottom/35% url(/images/books-3.png) no-repeat;
+}

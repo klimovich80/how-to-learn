@@ -1,0 +1,11 @@
+.contact-us__submit {
+  border: 1px solid red;
+  appearance: none;
+  padding: 10px;
+  border: none;
+  background-color: var(--link-color);
+  color: var(--text-color_bright);
+  font-weight: 600;
+  border-radius: 5px;
+  width: 100%;
+}
