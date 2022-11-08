@@ -1,0 +1,8 @@
+.contact-us__main-image{
+  position: absolute;
+  top: 180px;
+  left: 50px;
+  width: 25%;
+  opacity: .7;
+  border: 1px solid #000;
+}

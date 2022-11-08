@@ -72,8 +72,10 @@
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 @import url(../blocks/contact-us/contact-us.css);
-@import url(../blocks/contact-us__form/contact-us__form.css);
-@import url(../blocks/contact-us__name/contact-us__name.css);
-@import url(../blocks/contact-us__email/contact-us__email.css);
-@import url(../blocks/contact-us__submit/contact-us__submit.css);
+@import url(../blocks/contact-us/contact-us__form/contact-us__form.css);
+@import url(../blocks/contact-us/contact-us__name/contact-us__name.css);
+@import url(../blocks/contact-us/contact-us__email/contact-us__email.css);
+@import url(../blocks/contact-us/contact-us__submit/contact-us__submit.css);
+@import url(../blocks/contact-us/contact-us__main-image/contact-us__main-image.css);
 @import url(../blocks/form-input/form-input.css);
+
