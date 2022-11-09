@@ -1,6 +1,8 @@
 .khan__book-container {
+  display: -ms-grid;
   display: grid;
   height: 608px;
+  -ms-grid-columns: 620px 48px 1fr;
   grid-template-columns: 620px 1fr;
   gap: 48px;
 }

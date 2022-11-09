@@ -1,9 +1,36 @@
 .cards {
   width: 920px;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 240px 100px 240px 100px 240px;
   grid-template-columns: 240px 240px 240px;
+  -ms-grid-rows: 1fr 0 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 0 100px;
   margin: 0;
   padding: 0;
+}
+.cards > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+.cards > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+.cards > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+}
+.cards > *:nth-child(4) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+.cards > *:nth-child(5) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+}
+.cards > *:nth-child(6) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 5;
 }

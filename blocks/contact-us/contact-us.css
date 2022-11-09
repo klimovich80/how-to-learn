@@ -1,9 +1,16 @@
 .contact-us {
   padding: 100px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
-  background:var(--background-color_dimmed);
+  background: var(--background-color_dimmed);
   position: relative;
   overflow: hidden;
 }

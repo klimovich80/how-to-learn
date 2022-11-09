@@ -1,7 +1,12 @@
 .resources__logo-zone {
   width: 1100px;
   margin: 80px auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
   padding: 0;
 }

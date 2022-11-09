@@ -1,4 +1,6 @@
 .contact-us__submit {
+  -webkit-appearance: none;
+  -moz-appearance: none;
   appearance: none;
   padding: 10px;
   border: none;

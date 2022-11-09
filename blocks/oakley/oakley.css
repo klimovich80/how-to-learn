@@ -1,6 +1,10 @@
 .oakley {
   background: var(--background-color_dimmed);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   padding: 160px 0 0 0;
 }

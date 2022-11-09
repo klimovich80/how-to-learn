@@ -2,7 +2,9 @@
   list-style-type: none;
   margin: 50px auto -50px;
   padding: 0;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 20px 1fr;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
